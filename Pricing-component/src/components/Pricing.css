@@ -1,0 +1,425 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .pricing-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-size, .billing-cycle {
+    margin: 20px 0;
+  }
+  
+  .team-size input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: right;
+  }
+  
+  .billing-cycle button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .billing-cycle button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan h2 {
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .plan button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+    
+  .pricing-container h1 {
+    color: #054385; /* Change this to your desired color */
+  }
+  
+  
+  .plan ul {
+    text-align: left;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .plan ul li {
+    margin: 5px 0;
+  }
+  .data-center-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 600px;
+  }
+  
+  .data-center-card h2 {
+    color: #333333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .data-center-card p {
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .data-center-card button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .data-center-card button:hover {
+    background-color: #0056b3;
+  }
+  .blue-text {
+    color: #075dba; /* Blue color */
+  }
+  
+  .white-text {
+    color: rgb(10, 9, 9); /* White color */
+  }
+  .pricing-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.blue-text {
+  color: #007bff; /* Blue color */
+}
+
+.white-text {
+  color: white; /* White color */
+}
+
+.pricing-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.team-size {
+  text-align: left;
+  flex: 1;
+}
+
+.billing-info {
+  text-align: right;
+  flex: 1;
+}
+
+.discount {
+  color: #ff0000; /* Red color for discount text */
+  font-weight: bold;
+}
+.pricing-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .blue-text {
+    color: #0e7ef6; /* Blue color */
+  }
+  
+  .white-text {
+    color: rgb(14, 13, 13); /* White color */
+  }
+  
+  .pricing-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .team-size {
+    text-align: left;
+  }
+  
+  .billing-cycle {
+    text-align: right;
+  }
+  
+  .discount {
+    color: #ff0000; /* Red color for discount text */
+    font-weight: bold;
+  }
+  .features-table {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px; /* Adjust as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .features-table h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .features-table p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #007bff; /* Blue color */
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px; /* Adjust as needed */
+  }
+  
+  .footer-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #f4eded;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue for hover */
+  }
+  
+  
+  .free:hover {
+    background-color: #eaf4f4;
+    border-color: #007bff;
+  }
+  
+  .standard:hover {
+    background-color: #f4f4ea;
+    border-color: #007bff;
+  }
+  
+  .premium:hover {
+    background-color: #e8f4ff;
+    border-color: #007bff; /* optional: highlight border color */
+  }
+  
+  .enterprise:hover {
+    background-color: #f4f4f4;
+    border-color: #007bff;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  .questions-section {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 30px; /* Increase padding for a larger section */
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .questions-section h2 {
+    font-size: 2.5rem; /* Larger font size for heading */
+    margin-bottom: 15px; /* Increase bottom margin */
+    color: #0d0d0d; /* Dark text color */
+  }
+  
+  .questions-section p {
+    font-size: 1.125rem; /* Adjust font size for paragraph */
+    color: #666; /* Medium grey text color */
+  }
+  .plan ul li::before {
+    content: "✔ ";
+    color: #28a745;
+  }
+  .footer-container {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+.team-size,
+.billing-cycle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-size label,
+.billing-cycle label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#team-size {
+  margin-left: 10px;
+  width: 60px;
+}
+.billing-cycle button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.billing-cycle button.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.billing-cycle span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #28a745;
+}
+
+
+
+
+                                                                                                        
